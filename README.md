@@ -9,25 +9,32 @@
 ## Setup Steps
 
 ### 1. Clone the repository
+```bash
 git clone https://github.com/Dhiraj2k5/Django-rest-api.git
-cd <project-folder>
+cd Django-rest-api
+```
 
 ### 2. Create and activate virtual environment
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
 ### 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. Run migrations
+```bash
 python manage.py makemigrations
 python manage.py migrate
+```
 
-### 5. Create superuser
-python manage.py createsuperuser
-
-### 6. Run server
+### 5. Run server
+```bash
 python manage.py runserver
+```
 
 ## Installed Apps
 - vendor
