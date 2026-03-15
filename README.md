@@ -9,7 +9,7 @@
 ## Setup Steps
 
 ### 1. Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/Dhiraj2k5/Django-rest-api.git
 cd <project-folder>
 
 ### 2. Create and activate virtual environment
